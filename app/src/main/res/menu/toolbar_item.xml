@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share"
+        android:icon="@mipmap/ic_backup"
+        android:title="@string/share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/delete"
+        android:icon="@mipmap/ic_delete"
+        android:title="@string/delete"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/add"
+        android:icon="@mipmap/add"
+        android:title="@string/add"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/create_qun"
+                android:icon="@mipmap/create"
+                android:title="@string/create_qun" />
+            <item
+                android:id="@+id/add_friends"
+                android:icon="@mipmap/addfriend"
+                android:title="@string/add_friends" />
+            <item
+                android:id="@+id/pay"
+                android:icon="@mipmap/pay"
+                android:title="@string/pay" />
+            <item
+                android:id="@+id/clean"
+                android:icon="@mipmap/clean"
+                android:title="@string/clean"/>
+        </menu>
+    </item>
+
+</menu>

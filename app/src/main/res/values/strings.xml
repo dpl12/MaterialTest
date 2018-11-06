@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MaterialTest</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="add">Add</string>
+    <string name="create_qun">创建群聊</string>
+    <string name="add_friends">添加好友/群</string>
+    <string name="pay">支付</string>
+    <string name="clean">扫一扫</string>
+    <string name="call">Call</string>
+    <string name="friends">Friends</string>
+    <string name="location">Location</string>
+    <string name="email">Email</string>
+    <string name="navigation_drawer_open">drawer_open</string>
+    <string name="navigation_drawer_close">drawer_close</string>
+    <string name="tonygreedev_gmail_com">tonygreendev@gmail.com</string>
+</resources>
